@@ -5,4 +5,4 @@ Memento Mori (The Family of Things)\
 [CONSTRUCTION: Sculptural Byproducts]\
 Under Construction (--> move to photography section?)\
 Lake Topographies\
-Winter Body\
+Winter Body
