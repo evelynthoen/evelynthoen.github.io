@@ -10,4 +10,4 @@ Photography\
 Printmaking\
 Senior Exhibition (--> rename to actual project title? Incl under print?)\
 ArtLab: Outtakes and Extras\
-ArtLab: Spontaneous Shapes\
+ArtLab: Spontaneous Shapes
