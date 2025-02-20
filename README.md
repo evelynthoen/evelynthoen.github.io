@@ -1,6 +1,6 @@
 ## Evelyn Thoen
 welcome to my website\
-[about](/about.html)\
+[about](/About.html)\
 projects\
 old work 2016-2021\
-[contact](/contact.md)
+[contact](/Contact.md)
