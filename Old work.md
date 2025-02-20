@@ -3,4 +3,4 @@ Photography\
 Printmaking\
 Senior Exhibition\
 ArtLab: Outtakes and Extras\
-ArtLab: Spontaneous Shapes
+ArtLab: Spontaneous Shapes 
