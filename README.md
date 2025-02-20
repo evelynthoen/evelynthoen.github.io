@@ -1,6 +1,6 @@
 ## Evelyn Thoen
 welcome to my website\
-[about] ()\
+[about] (About page)\
 projects\
 old work 2016-2021\
 contact
