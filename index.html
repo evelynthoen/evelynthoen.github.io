@@ -1,78 +1,90 @@
 <head>
-  <style>
-    .sidebar {
-	height: 100%;
-	width: 190px;
-	position: fixed;
-	background-color: #CFD8DC;
-	padding: 20px;
+  <link rel="stylesheet" href="style-sheet.css">
+  <script>
+    let current=1;
+    function nextN(){
+	let slides=document.getElementById("testtt");
+	slides.style.display="none";
+	// current+=1;
+	// if (current>2) {current=0};
+	// slides[current].style.display="block";
     }
-    .main {
-	margin-left: 230px;
-	padding: 20px;
-    }
-    .description {
-	font-size: 20;
-	font-style: italic;
-    }
-    body {
-	font-family: Helvetica;
-    }
-    .images {
-	display: grid;
-	grid-template-columns: auto auto;
-	row-gap: 10px;
-    }
-    img {
-	width: 350px;
-	height: 350px;
-	object-fit: contain;	
-    }   
-	a:link {
-	color: transparent;
-	background-color: transparent;
- 	text-decoration: none;
-	}
-  </style>
+  </script>
 </head>
 
 
 <body>
   <div  class="sidebar">
-    <p style="font-size: 26"> Evelyn Thoen </p>
-	  
-	<p style="font-color: #d085e2"> <a href="date day.docx"> secret message </a> </p>
-		
-	  <p style="font-size: 8"> 
-	   <a href="starlight meowing.wav"> <3 </a>
-	    </p>
-
-	  
-  </div>
-  <div class="main"
-      <p style="font-size: 30; font-style: italic">My website is currently:</p>
-      <p style="font-size: 48; font-style: normal">Under Construction</p>
-      <p class="description">An ongoing film photography series investigating the heightened urbanization of Nashville, Tennessee</p>
-      <p class="description"> Digital scans of original 35mm negatives</p>
-      <p class="description"> 2024-</p>
-      <div class="images">
-	<div class="grid-square">
-	  <img src="Under Construction 1.jpg"></div>
-	<div class="grid-square">
-	  <img src="Under Construction 2.jpg"></div>
-	<div class="grid-square">
-	  <img src="Under Construction 3.jpg"></div>
-	<div class="grid-square">
-	  <img src="Under Construction 4.jpg"></div>
-      </div>
-
-   
+    <a style="font-size: 26" href="index.html">Evelyn Thoen</a>
+    <a class="main-links" href="index.html">
+      Projects</a>
+    <a class="main-links" href="About.html">
+      About</a>
     
+  </div>
+  <div class="main">
+    
+    <h1>Projects</h1>
 
+    <div class="grid">
+      
+      <a href="Projects/Dreamcatcher/Dreamcatcher.html">
+	<div class="grid-square">
+	  <img src="Projects/Dreamcatcher/Dreamcatcher Images/dreamcatcher 1.jpg">
+	  <div>
+	    Dreamcatcher
+	  </div>
 
+	</div>
+      </a>
+      <a href="Projects/Memento Mori/Memento Mori.html">
+	<div class="grid-square">
+	  <img src="Projects/Memento Mori/Memento Mori Images/snake.jpg">
+	  <div>
+	    Memento Mori
+	  </div>
 
+	</div>
+      </a>
+      <a href="Projects/Paducah/Paducah.html">
+	<div class="grid-square">
+	  <img src="Projects/Paducah/Paducah Images/Paducah 3.jpg">
+	  <div>
+	    4.27.2024 QuiltWeek Paducah, KY
+	  </div>
 
+	</div>
+      </a>
+      <a href="Projects/Construction/Construction.html">
+	<div class="grid-square">
+	  <img src="Projects/Construction/Construction Images/Construction 5.jpg">
+	  <div>
+	    Construction: Sculptural Byproducts
+	  </div>
 
+	</div>
+      </a>
+      <a href="Projects/Lake/Lake.html">
+	<div class="grid-square">
+	  <img src="Projects/Lake/Lake Images/Lake 3.jpg">
+	  <div>
+	    Lake Topographies
+	  </div>
+
+	</div>
+      </a>
+      <a href="Projects/Winter Body/Winter Body.html">
+	<div class="grid-square">
+	  <img src="Projects/Winter Body/Winter Body Images/Winter Body 5.jpeg">
+	  <div>
+	    Winter Body
+	  </div>
+
+	</div>
+      </a>
+    </div>
+
+    
   </div>
 
 </body>
